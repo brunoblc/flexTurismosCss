@@ -1,0 +1,55 @@
+/* display: flex -- já separa em linhas os blocos
+flex-direction: row -- ja separa em fila os blocos
+flex-direction: row-reverse -- na outra ponta da pagina e ao contrario
+flex-direction: column -- isso junto do float: deixa na vertical
+flex-direction: column-reverse -- faz igual o de cima ao contrario
+flex-wrap: nowrap -- não qbra a linha
+flex-wrap: wrap -- - qbra a linha com o item do container 
+flex-wrap: wrap-reverse -- qbra a linha ao contrario 
+min-width -- respeita o tamanho do container
+flex-flow: row nowrap -- segue em fila e sem qbra
+flex-flow: row wrap-reverse
+flex-flow: row-reverse nowrap
+justify-content: flex-start -- início do container.
+justify-content: flex-end -- final do container.
+justify-content: center -- ao centro do container.
+justify-content: space-between -- cria um espaçamento igual entre os elementos.
+justify-content: space-around -- os espaçamentos do meio são duas vezes maiores que o inicial e final.
+justify-content: column -- cria coluna 100% do espaço em coluna unica
+justify-content: space 
+justify-content: space-between -- cria com espacamento entre os itens
+justify-content: space-around -- cria bordas com espacamento entre os itens
+align-items: center -- alinhamento dos itens ao centro
+align-items: stretch -- padrão, e os flex itens cresçam igualmente
+align-items: flex-start -- alinhamento dos itens no início
+align-items: flex-end -- alinhamento dos itens no final
+align-items: baseline -- alinhamento de acordo com a linha base da tipografia dos itens
+flex-direction: column -- preenche o item dentro do container agora em coluna
+flex-direction: column
+align-content: center -- alinhamento dos itens ao centro
+align-content: stretch -- é o padrão e os flex itens crescem igualmente
+align-content: flex-start -- alinhamento dos itens no início
+align-content: flex-end -- alinhamento dos itens no final
+align-content: space-between -- cria um espaçamento igual entre os elementos
+align-content: space-around -- os espaçamentos do meio são duas vezes maiores que o inicial e final
+
+Flex-grow: 1 ou 2 ou 3 ou 4
+
+Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos.
+
+flex-basis: auto
+JUNTO DE FLEX-GROW: 1 OU 2 OU 3...
+
+define o espaço automatico entre os itens do container pegando o tamanho total
+
+Flex-shrink: 1 OU 2 OU 3  etc...
+
+É a propriedade que estabelecer a capacidade de redução ou
+compressão do tamanho de um item.
+
+flex: 1 ou 2 ou 3 --- grow =1 , shrink = 1 e basis = 0 (n tem diminuilçao e sem dar qbra)
+
+
+*/
+
+
